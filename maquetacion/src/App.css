@@ -1,0 +1,51 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header, .aside, .footer, .section, .gallery {
+  padding: 10px;
+}
+
+.header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.aside {
+  width: 200px;
+  background-color: #f0f0f0;
+}
+
+.main {
+  flex: 1;
+  padding: 10px;
+}
+
+.gallery img {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+
+.section {
+  width: 200px;
+  background-color: #f0f0f0;
+}
